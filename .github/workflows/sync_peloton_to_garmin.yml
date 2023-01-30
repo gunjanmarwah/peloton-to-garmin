@@ -45,8 +45,8 @@ jobs:
             "Json": false,
             "Tcx": false,
             "SaveLocalCopy": false,
-            "IncludeTimeInHRZones": false,
-            "IncludeTimeInPowerZones": false,
+            "IncludeTimeInHRZones": true,
+            "IncludeTimeInPowerZones": true,
             "DeviceInfoPath": "./deviceInfo.xml"
           },
           "Peloton": {
