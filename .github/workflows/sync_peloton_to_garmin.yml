@@ -8,7 +8,7 @@ on:
     inputs:
       workoutsToDownload:
         type: number
-        default: "2"
+        default: "3"
   schedule:
     - cron: '0 21 * * *'
 
@@ -30,7 +30,7 @@ jobs:
         EOT
     - name: Create config file
       env:
-        DEFAULT_WORKOUT_NUM: 2
+        DEFAULT_WORKOUT_NUM: 3
       run: |
         cat <<EOT > /app/configuration.local.json 
         {
