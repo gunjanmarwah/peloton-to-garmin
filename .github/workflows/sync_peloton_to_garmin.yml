@@ -36,7 +36,7 @@ jobs:
         {
           "App": {
             "OutputDirectory": "/app/output",
-            "EnablePolling": true,
+            "EnablePolling": false,
             "PollingIntervalSeconds": 86400,
             "CloseWindowOnFinish": true
           },
@@ -51,7 +51,7 @@ jobs:
           },
           "Peloton": {
             "NumWorkoutsToDownload": ${{ github.event.inputs.workoutsToDownload || env.DEFAULT_WORKOUT_NUM }},
-            "ExcludeWorkoutTypes": [ "meditation" ],
+            "ExcludeWorkoutTypes": [ "meditation", "running" ],
           },
           "Garmin": {
             "Upload": true,
