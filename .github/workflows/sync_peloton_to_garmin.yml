@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     # The type of runner that the job will run on
     container: 
-      image:  philosowaffle/peloton-to-garmin:console-latest
+      image:  philosowaffle/peloton-to-garmin:v3.6.1
     steps:
     - run: mkdir -p /app/output
     - name: Create device info file
@@ -83,4 +83,4 @@ jobs:
         P2G_PELOTON__PASSWORD: ${{ secrets.P2G_PELOTON__PASSWORD }}
         P2G_GARMIN__EMAIL: ${{ secrets.P2G_GARMIN__EMAIL }}
         P2G_GARMIN__PASSWORD: ${{ secrets.P2G_GARMIN__PASSWORD }}
-        TZ: America/Chicago
+        TZ: America/New_York
