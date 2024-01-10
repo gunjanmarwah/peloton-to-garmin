@@ -1,11 +1,11 @@
-<Creator>
-  <Name>Peloton</Name>
-  <UnitId>00000000000</UnitId>
-  <ProductID>0000</ProductID>
-  <Version>
-    <VersionMajor>0</VersionMajor>
-    <VersionMinor>0</VersionMinor>
-    <BuildMajor>0</BuildMajor>
-    <BuildMinor>0</BuildMinor>
-  </Version>
-</Creator>
+<Creator 
+    <Name>Forerunner 955</Name>
+    <UnitId>3429783596</UnitId>
+    <ProductID>4024</ProductID>
+    <Version>
+      <VersionMajor>17</VersionMajor>
+      <VersionMinor>26</VersionMinor>
+      <BuildMajor>0</BuildMajor>
+      <BuildMinor>0</BuildMinor>
+    </Version>
+  </Creator>
