@@ -51,7 +51,7 @@ jobs:
           },
           "Peloton": {
             "NumWorkoutsToDownload": ${{ github.event.inputs.workoutsToDownload || env.DEFAULT_WORKOUT_NUM }},
-            "ExcludeWorkoutTypes": [ "meditation", "OutdoorRunning", "TreadmillRunning", "TreadmillWalking"],
+            "ExcludeWorkoutTypes": [ "meditation", "OutdoorRunning", "TreadmillRunning", "OutdoorWalking", "TreadmillWalking"],
           },
           "Garmin": {
             "Upload": true,
